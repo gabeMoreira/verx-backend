@@ -115,7 +115,6 @@ async function staticsDashboard(req, res) {
             landUse
         });
     } catch (error) {
-      console.log(error);
         res.status(500).json({ error: 'Error to create dashboard data' });
     }
 }
